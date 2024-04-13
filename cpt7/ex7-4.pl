@@ -2,7 +2,7 @@
 
 foreach(<>) {
     chomp;
-    if (/fred/) {
+    if (/\A[A-Z][a-z]/) {
         print "$_\n";
     }
 }

@@ -2,7 +2,7 @@
 
 foreach(<>) {
     chomp;
-    if (/fred/) {
+    if (/[Ff]red/) {
         print "$_\n";
     }
 }
